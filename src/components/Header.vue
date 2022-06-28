@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <nav class="w-full absolute flex justify-between py-4 px-10">
+  <nav class="w-full absolute flex justify-between py-4 px-10 text-[1.01vw]">
     <div class="flex items-center text-white font-bold">
       <p class="border-2 border-solid border-white py-2 px-4">
         HEALTH BY HABIT

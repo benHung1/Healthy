@@ -8,11 +8,33 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 /* import specific icons */
-import { faPlus, faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPlus,
+  faArrowRightLong,
+  faHeart,
+  faFaceGrinHearts,
+  faVirus,
+  faFaceDizzy,
+  faCannabis,
+} from "@fortawesome/free-solid-svg-icons";
 
 import "./fonts/fonts.css";
 
 /* add icons to the library */
-library.add(faPlus, faArrowRightLong);
+library.add(
+  faPlus,
+  faArrowRightLong,
+  faHeart,
+  faFaceGrinHearts,
+  faVirus,
+  faFaceDizzy,
+  faCannabis
+);
 
-createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
+import Vue3Marquee from "vue3-marquee";
+import "vue3-marquee/dist/style.css";
+
+createApp(App)
+  .use(Vue3Marquee)
+  .component("font-awesome-icon", FontAwesomeIcon)
+  .mount("#app");
