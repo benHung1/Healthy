@@ -11,6 +11,7 @@ module.exports = {
         dynamic: "clamp(20.5vw, 12vw, 5vw)",
         normal: "clamp(2vw, 1.5vw, 1vw)",
         bigger: "clamp(3.8vw, 2vw, 1vw)",
+        middle: "clamp(3vw, 1.8vw, 1vw)",
       },
     },
   },

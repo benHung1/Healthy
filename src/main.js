@@ -34,7 +34,10 @@ library.add(
 import Vue3Marquee from "vue3-marquee";
 import "vue3-marquee/dist/style.css";
 
+import VueSplide from "@splidejs/vue-splide";
+
 createApp(App)
   .use(Vue3Marquee)
+  .use(VueSplide)
   .component("font-awesome-icon", FontAwesomeIcon)
   .mount("#app");
